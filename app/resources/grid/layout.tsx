@@ -1,5 +1,5 @@
 const gridLayout = ({ children }: { children: React.ReactNode }) => {
-  return <div className="border grid grid-cols-3 gap-4">{children}</div>;
+  return <div>{children}</div>;
 };
 
 export default gridLayout;
